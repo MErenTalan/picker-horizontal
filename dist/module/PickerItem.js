@@ -42,7 +42,7 @@ export default function PickerItem({
           backgroundColor: "#ff0000",
         },
       },
-      label + "aa"
+      label + "ab"
     )
   );
 }
