@@ -44,7 +44,7 @@ export default function PickerItem({
       label={label}
     >
       <CustomText style={{ backgroundColor: "#ff0000" }}>
-        {label + "aa"}
+        {label + "ab"}
       </CustomText>
     </Option>
   );
