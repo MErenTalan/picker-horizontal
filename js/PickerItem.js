@@ -5,10 +5,10 @@
  *
  */
 
-import type {ColorValue} from 'react-native/Libraries/StyleSheet/StyleSheet';
+import type { ColorValue } from "react-native/Libraries/StyleSheet/StyleSheet";
 
-import * as React from 'react';
-import * as ReactNativeWeb from 'react-native-web';
+import * as React from "react";
+import * as ReactNativeWeb from "react-native-web";
 
 type Props = {
   color?: ColorValue,
@@ -19,10 +19,10 @@ type Props = {
 };
 
 const Option = (props: any) =>
-  ReactNativeWeb.unstable_createElement('option', props);
+  ReactNativeWeb.unstable_createElement("option", props);
 
 const CustomText = (props: any) =>
-ReactNativeWeb.unstable_createElement('span', props);
+  ReactNativeWeb.unstable_createElement("span", props);
 
 /**
  * PickerItem Component for React Native Web
@@ -38,11 +38,14 @@ export default function PickerItem({
   return (
     <Option
       disabled={enabled === false ? true : undefined}
-      style={{color}}
+      style={{ color }}
       testID={testID}
       value={value}
-      label={label}>
-     <CustomText style={{backgroundColor:"#ff0000"}}>{label}</CustomText>
+      label={label}
+    >
+      <CustomText style={{ backgroundColor: "#ff0000" }}>
+        {label + "aa"}
+      </CustomText>
     </Option>
   );
 }
