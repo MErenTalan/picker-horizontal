@@ -86,7 +86,7 @@ function PickerItem({ color, label, testID, value, enabled = true }) {
           backgroundColor: "#ff0000",
         },
       },
-      label
+      label + "aa"
     )
   );
 }
