@@ -67,7 +67,7 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "@react-native-picker"
+            VALUE "CompanyName", "@merentalan"
             VALUE "FileDescription", "React Native Picker for Windows"
             VALUE "FileVersion", "2.4.4.0"
             VALUE "InternalName", "ReactNativePicker.dll"

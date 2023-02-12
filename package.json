@@ -1,7 +1,7 @@
 {
   "name": "@merentalan/picker",
   "version": "2.4.10",
-  "homepage": "https://github.com/react-native-picker/picker#readme",
+  "homepage": "https://github.com/merentalan/picker#readme",
   "description": "React Native Picker for iOS, Android, macOS, and Windows",
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
@@ -168,7 +168,7 @@
     "dist/"
   ],
   "bugs": {
-    "url": "https://github.com/react-native-picker/picker/issues"
+    "url": "https://github.com/merentalan/picker/issues"
   },
   "directories": {
     "example": "example"
